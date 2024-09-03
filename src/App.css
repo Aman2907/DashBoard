@@ -1,0 +1,274 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: inherit !important;
+}
+
+th,
+td,
+tr {
+  width: 170px !important;
+  height: 54px !important;
+  max-width: 180px !important;
+  max-height: 65px !important;
+  min-width: 150px !important;
+  min-height: 75px !important;
+ 
+  border: 1px solid #970e0e;
+  text-align: left;
+  /* Center-align text */
+  vertical-align: middle;
+  /* Center-align text vertically */
+  box-sizing: border-box;
+
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+
+.demo {
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 20%;
+}
+
+
+
+
+/* for table inside maining */
+.TabIn {
+  width: 850px;
+  height: 400px;
+  margin-top: 30px;
+  overflow-x: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Horizontal Scrollbar */
+.TabIn::-webkit-scrollbar {
+  width: 19px; /* For vertical scrollbar */
+  height: 12px;
+}
+
+.TabIn::-webkit-scrollbar-thumb {
+  background-color: #a7aaa7;
+  border-radius: 10px;
+}
+
+.TabIn::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Vertical Scrollbar */
+.TabIn::-webkit-scrollbar:vertical {
+  width: 12px;
+  height: 3%;
+}
+
+.TabIn::-webkit-scrollbar-thumb:vertical {
+  background-color: #a7aaa7;
+  border-radius: 10px;
+}
+
+.TabIn::-webkit-scrollbar-track:vertical {
+  background-color: #e9ecef;
+}
+
+
+
+
+.meno {
+  width: 500px;
+  height: 400px;
+}
+
+
+
+
+.semi {
+  display: grid;
+  grid-template-columns: 1020px 32%;
+  width: 100%;
+  grid-column-gap: 1px;
+  margin-top: 40px;
+
+}
+
+
+
+.divLef {
+  border: 1px solid rgb(245, 245, 245);
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 87%;
+  height: 55%;
+  background-color:white;
+  padding: 10px;
+}
+
+
+.RigDev {
+  width: 309px;
+  margin-top: 35px;
+  background-color: #fefefe;
+  padding: 10px;
+}
+
+.spell {
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+
+.harshit {
+  margin-top: 40px;
+  margin-left: 20px;
+  border: color;
+}
+
+
+
+
+.harman {
+  border: 1px solid black;
+}
+
+
+
+  /* Editing for upper portion */
+.flexcon {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.flexcon div {
+  width: 90px;           
+  height: 49px;        
+  display: flex;        
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;  
+  margin: -10px 0 0 -10px;  
+  border: 1px solid rgb(197, 12, 12);  
+  background-color: rgb(255, 255, 255); 
+  transform: translate(30px, 30px);  
+} 
+
+ 
+.flexcon div:nth-child(1),
+.flexcon div:nth-child(2),
+.flexcon div:nth-child(3){
+  background-color: rgb(255, 255, 255);  
+  border: 1px solid rgb(224, 224, 224);
+  gap: 2px;  
+
+}
+
+.flexcon div:nth-child(10) {
+ background-color: #ccc;
+ color: #969292;
+ border: 1px solid rgb(253, 253, 253);
+}
+
+ 
+.flexcon div:nth-child(4),
+.flexcon div:nth-child(5),
+.flexcon div:nth-child(6),
+.flexcon div:nth-child(7),
+.flexcon div:nth-child(8),
+.flexcon div:nth-child(9) {
+  background-color: white;  
+  border: 1px solid white;  
+}
+
+.flexcon div:nth-child(2),
+.flexcon div:nth-child(10) {
+  width: 130px;  
+}
+
+
+.flexcon{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.komo{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+.FloWK{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+/* google fonts */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
