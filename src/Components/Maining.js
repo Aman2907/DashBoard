@@ -21,7 +21,7 @@ function Maining() {
               <thead>
                 <tr >
                  {data[0].table_headers.map((header, index) => (
-                  <th key={index} style={{  backgroundColor: '#f2f5f8 '}} >
+                  <th key={index} style={{  backgroundColor: '#f2f7f8 '}} >
                    {header.name} 
                    <DeleteIcon style={{color:"#6575a9",left:"20px", marginLeft:"43px"}}/>
                   </th>
